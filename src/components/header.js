@@ -1,15 +1,31 @@
 // Import libraries for making a component
 import React from 'react';
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 
 // Make a component
 const Header = () => {
-    const { textStyle } = styles;
+    const { textStyle, viewStyle } = styles;
 
-    return <Text style={textStyle}>Albums Headers!</Text>; // style syntax is called Prop
+return (
+    <View style={viewStyle}>
+        <Text style={textStyle}>Albums Headers!</Text> 
+    </View>
+    ); 
 };
 
 const styles = {
+    viewStyle: {
+        backgroundColor: '#F8F8F8',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 100,
+        paddingTop: 15,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.5,
+        elevation: 2,
+        position: 'relative'
+    },
     textStyle: {
         fontSize: 20
     }
