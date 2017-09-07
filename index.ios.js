@@ -11,7 +11,7 @@ import { AppRegistry } from 'react-native';
 import Header from './src/components/header'
 
 const App = () => (
-    <Header /> // Component Nesting
+    <Header headerText={'Albums Header!'}/> // Component Nesting
   );
 
 // It looks better above then previous code below
