@@ -1,8 +1,11 @@
 # First React Native Project App
 
-Simple react native app with a list and detail view. Separated into simple components. Buy button takes you to Amazon page to purchase.
+### Simple react native app with a list and detail view
 
-All Components are generic and reusable.
+### Separated into reusable components 
+
+### Buy button takes you to Amazon page to purchase
+
 
 ![](https://github.com/EdgarHSalinas/albums/blob/master/albums.gif)
 
